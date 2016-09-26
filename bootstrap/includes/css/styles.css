@@ -1,0 +1,94 @@
+/*
+
+My Custom CSS
+=============
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.modifyStyling{
+  ::before;
+  list-style: none;
+  ::after;
+}
+
+#footerList{
+  list-style: none;
+}
+.headerCompletion{
+  padding-top:120px;
+}
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    
+    overflow: hidden;
+}
+#jumbo2{
+  background: #000 url("../../images/manublue.jpg") no-repeat center center;
+  height: 300px;
+  width: 100%;
+}
+#jumbo1{
+  background:#FFD700;
+}
+
+#carouselAttempt{
+  height: 325px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar-brand {
+   	padding: 13px 15px;
+   }
+   #navhead{
+    padding: 15px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   footer {
+   	background:#FFD700;
+   	color: #eee;
+   	font-size: 11px;
+   	padding: 20px;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

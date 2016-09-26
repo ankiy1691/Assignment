@@ -1,0 +1,104 @@
+<html>
+	<head>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+		<title></title>
+		<meta name="description" content="">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+		
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body >
+
+			<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse1">
+
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+				<a class="navbar-brand" href="#"><h5>World Development Indicators - Life Expectancy</h5></a>
+			</div>
+
+			<div class="collapse navbar-collapse " id="collapse1">
+	
+				<ul class="nav navbar-nav navbar-right" id="login">
+				<li  data-toggle="tooltip" title="Mail us"><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+
+
+					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Log in <span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><span class="glyphicon glyphicon-wrench"></span>  Settings</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> update</a></li>
+						<li><a href="#"> <span class="glyphicon glyphicon-eye-open"></span> Active logging</a></li>
+					</ul>
+
+					</li>
+					</ul>
+					</div>
+				</nav>
+			<!-- end of nav-->
+			 <!-- <div class="row subheader">
+			              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="sub">
+			                    <h4>GDP and population data for G20 countries</h4>
+			              </div>			               
+			   </div>-->
+			   
+			   
+
+			   
+			   
+		 <div class="container-fluid">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#tab1" data-toggle="tab" onclick>Life expentancy for Asian countries</a></li>
+				<li ><a href="#tab2" data-toggle="tab">Multi-series line chart of India</a></li>
+				<li ><a href="#tab3" data-toggle="tab">Highest Life expentancy bar chart</a></li>
+				
+			<div class="tab-content">
+			<div id="tab1" class="tab-pane active">
+				<acontent></acontent>
+				</div>
+				<div id="tab2" class="tab-pane">
+					<bcontent></bcontent>
+               </div>
+				<div class="tab-pane" id="tab3">
+				<ccontent></ccontent>
+				</div>
+			</div>
+		</div>
+			   
+			   
+
+		<script type="text/javascript" src="js/PlotBar.js"></script>
+		<script type="text/javascript" src="js/PlotStackBar.js"></script>
+		<script type="text/javascript" src="js/PlotMultiLine.js"></script>
+		
+		
+
+
+		<script>
+		plotStack();
+		plotMultiline();
+		
+		plotBar();
+		</script>
+		<!-- <script type="text/javascript" src="gdp.js"></script> -->
+			<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+
+
+
+
+	</body>
+</html>

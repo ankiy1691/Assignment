@@ -1,0 +1,52 @@
+#table th,td{
+      border: 1px solid black;
+    border-style: solid;
+    border-width: 1px;
+    /*border-color: black;*/
+    background-color: #FBEEE6;
+    
+   }
+
+   .c1
+   {
+    margin-top: 50px;
+   }
+   #table{
+    margin-top: 20px;
+   }
+   .navbar-default{
+    background-color: #E67E22;
+   }
+
+
+
+#update_table {
+    background-color:#FBEEE6;
+    margin-top: 50px;
+}
+ 
+body{
+  background-color: #D39BCB;
+}
+ 
+@media (max-width: 480px)
+{
+   #inputtype{
+  width:120px;
+}
+#table th,td
+{
+   font-size: 8px;
+
+}
+
+}
+/* Portrait & landscape phone */
+
+
+/* Landscape phone to portrait tablet */
+
+
+/* Large desktop */
+
+  

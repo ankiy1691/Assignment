@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+	<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="includes/css/styles.css">
+
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container headerCompletion" id="main">
+
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+
+				<a class="navbar-brand" href="/"><img src="images/logo.jpg" alt="Your Logo"></a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-right">
+						<li class="active dropdown">
+							<a href="#" class="dropdown-toggle active" data-toggle="dropdown" id="navhead">Home</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Trophy Cabinent</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Manager Profile</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Player Profile</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span> <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<h3>Top Players</h3>
+									</li>
+									<li>
+										<div class="top-cart-item clearfix">
+											<div class="top-cart-item-image">
+												<a href="#"><img src="images/messi.jpg" alt="Blue Round-Neck Tshirt"></a>
+											</div>
+											<div class="top-cart-item-desc">
+												<a href="#">barcelona legend</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="top-cart-item clearfix">
+											<div class="top-cart-item-image">
+												<a href="#"><img src="images/ronaldo.png" alt="Blue Round-Neck Tshirt"></a>
+											</div>
+											<div class="top-cart-item-desc">
+												<a href="#">Real madrid legend</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="top-cart-action clearfix">
+											<button class="btn btn-danger">Get him in ManU</button>
+										</div>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			<div class="jumbotron" id="jumbo1">
+				<div class="page-header">
+					<h1>Manchester United <small>EPL champions</small></h1>
+				</div><!-- end page-header -->
+
+				<p class="lead">Attacking football is our culture</p>
+
+				<ul class="list-inline pull-right">
+					<li ><a href="#">Home</a></li>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Services</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel	">
+						<div class="panel-heading">
+							<h3 class="panel-title">Why choose us</h3>
+						</div>
+						<img src="images/manchesterunited.jpg" alt="manchester_united">
+						<p>Fondly called as theatre of dreams , our only mission is to win titles</p>
+
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Our Mission</h3>
+						</div>
+						<img src="images/unitedmission.jpg" alt="manchester_united">
+						<p>Fondly called as theatre of dreams , our only mission is to win titles</p>
+
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">What we do</h3>
+						</div>
+						<img src="images/unitedplay.jpg" alt="manchester_united">
+						<p>Fondly called as theatre of dreams , our only mission is to win titles</p>
+					</div>
+				</div>
+			</div><!-- jumbotron 1 ends -->
+			<div class="jumbotron" id="jumbo2">
+				<div class="container">
+					<h1>ManU<small>Theatre of dreams</small></h1>
+				</div>
+			</div><!-- Jumbotron ends here -->
+			<div class="row">
+				<div class="col-sm-7">
+					<h3>Business of manchester united</h3>
+					<p>We benefit from the distribution and broadcasting of live football content directly from the revenue we receive and indirectly through increased global exposure for our commercial partners. Broadcasting revenue is derived from the centrally negotiated domestic and international television and radio rights to the Premier League, the Champions League and other competitions. In addition, our wholly-owned global television channel, MUTV, delivers Manchester United programming to over 90 countries and territories around the world. Our Broadcasting revenue was £107.7 million for the year ended 30 June 2015</p>
+					<a href="#">Learn more..</a>
+				</div>
+				<div class="col-sm-5">
+					<h3>Business statistics</h3>
+					<img src="images/mustat.png" alt="">
+				</div>
+			</div><!-- business block ends-->
+			<div class="row" data-ride="carousel" id="carouselAttempt">
+				<div class="col-sm-6">
+					<div class="carousel slide" id="myCarousel">
+						<ol class="carousel-indicators">
+							<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+							<li data-slide-to="1" data-target="#myCarousel"></li>
+							<li data-slide-to="2" data-target="#myCarousel"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active" id="slide1">
+								<img src="images/roo.jpg" alt="">
+								<div class="carousel-caption">
+									<h4>Rooney</h4>
+									<p>Player who represents Manu from age of 17</p>
+								</div>
+							</div><!-- end item-->
+							<div class="item" id="slide2">
+								<img src="images/mata1.jpg" alt="">
+								<div class="carousel-caption">
+									<h4>Mata</h4>
+									<p>Highly creative player</p>
+								</div><!-- end carousel-caption-->
+							</div>
+							<div class="item" id="slide3">
+								<img src="images/ron7.jpg" alt="">
+								<div class="carousel-caption">
+									<h4>Ronaldo</h4>
+									<p>A ManU legend</p>
+								</div><!-- end carousel-caption-->
+							</div><!-- end item -->
+						</div>
+
+					</div><!-- carousel ends-->
+				</div>
+				<div class="col-sm-6">
+					<h4><span class="glyphicon glyphicon-map-marker"></span> Stadium Location <small>Where EPL matches happen</small></h4>
+								
+								<iframe width="100%" height="200" frameborder="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+								
+								<p>Welcome to theatre of dreams. Opponents fear this place. Fans rejoice this stadium.Kids are inspired by real heroes. Players are turned into warriors</p>
+								
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Subscribe!</a></li>
+							<li><a href="#tab2" data-toggle="tab">This week top players</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<p>If you subscribe to us , you will get exclusive access to player interviwews. Interact with our players. Lucky fans get a chance to visit the training ground and play with them. Also get a signed manchester united jersey from your favorite player</p>
+								<hr>
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for Subscribing to Manchester United!</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">Enter into ManU home, become a special fan</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												<h4>Famous Quotes</h4>
+												<p>"We have a ego a pride in representing Manchester United!..'Rooney'"</p>
+												<hr>
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="userName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="userName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="userEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="userEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+								
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								<ul>
+									<li>Martial</li>
+									<li>Rashford</li>
+									<li>DeGea</li>
+								</ul>
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<h6>Copyright &copy; 2016 Ankit Bansal</h6>
+					</div>
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+                           <li><a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                           <li><a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a></li>
+                       </ul>
+					</div>
+					<div class="col-sm-3">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span>Bootstrap</h6>
+					</div>
+				</div>
+			</div>
+	</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+</body>
+</html>
